@@ -1,0 +1,29 @@
+				Creating Analog Clock with HTML,CSS&JAVASCRIPT
+STEP1=========create html==========
+In your HTML create a parent div and give it an an ID/class name[clock]. Then create the children div which would be the hands of the clock.
+thereafter we should have a secondHand, minuteHand & hourHand. Also create div's which would contain the numbers to be inside the clock[1-12].
+note: the total child div's should amount to 15.
+STEP2========design clock with css===========
+After linking your css file to your html document, Style the body of the page to your taste.
+Give the clock div WIDTH and HEIGHT of the same size so it forms a square.With a border of 3px solid black and border radius  of 100%, the square
+should now become a circle with a black border around it. Set the position of the clock to relative. 
+Call the class names of all the numbers and set the position to absolute,width and height to 100% so that it takes the width and height of the clock, text-align should be center. Among the styling we are going to declare a transform:rotate variable (transform:rotate(var(--rotation)); and set rotate to 0(rotate:0;). Using this variable we are going to rotate the numbers around the clock, call the individual id/class names 
+of the numbers and use the variable that was created and specify the deg of rotation we wish to apply e.g (--rotation:30deg-330deg;).
+style each hand of the clock differently. call together the id/class names of the hands and set position to absolute and transform origin BOTTOM[this
+holds the hand at the bottom while they rotate round the clock]. 
+Also set the rotate to calculate our rotation variable by 1 deg[ rotate(calc(var(--rotation)*1deg));
+Create hand holder and set in in the middle of the clock.
+
+STEP3=========start  working clock with javascript============
+You need to pay rapt attention to this part of the code.
+Set the interval of the clock and call the function name we are to use and the timing you want inside the interval function.
+Create three constants or variables secondHand,minuteHand&hourHand and link them to the HTML divs for the hand of the  clock using document.querySelector.
+Inside the setClock function Create a constant and attach NEW DATE function to it. The new date function helps to get the recent date of the system..
+Create another constant called secondsRatio and get seconds from the new date
+Do same for minutesRatio, then add secondsRatio to it and divide by 60
+Do same for hourRatio, add minutesRatio and divide by 12
+Create a function name e.g setRotation(). Store the secondHand and secondRatio in the function. Call the same function and store the minutesHand and minutesRatio in it. Do same for hourHand and hourRatio.
+Call function setRotation and represent the hands and ratios with parameters e.g setRotation(element,rotationRatio);
+Inside the function setRotation our element which represents the hands of the clock is styled and property set to multiply rotationRatio by 360 { element.style.setProperty("name of css var",rotation ratio*360)} this uses the rotation variable to calculate the movement of the hands of the clock.
+
+After all these call the function setClock();
