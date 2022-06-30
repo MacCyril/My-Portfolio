@@ -158,7 +158,7 @@
     }
     #home{
         display:block;
-        height: 100vh;
+        height: 90vh;
         font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
         /* background-color: rgb(221, 221, 221); */
     }
@@ -213,7 +213,7 @@
     /* ======================= ABOUT SECTION ===================== */
     #about{
         /* background-color: rgb(221, 221, 221); */
-        height: 150vh;
+        height: 100vh;
     }
     #about span{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
     .stuff1{padding:20px 0 0 10px ; text-align: center;}
@@ -230,18 +230,18 @@
         width:70vh;
         height:370px;
         display: flex;
-        flex-wrap: wrap;gap:20px;
+        flex-wrap: wrap;gap:10px;
         /* justify-content: space-around; */
         margin-top:20px;
         text-align: center;
         position: relative;
-        left:4%;
+        left:1%;
 
         
     }
     .stuff2 .s1,.s2,.s3,.s4{
-        width:22vh;
-        height: 22vh;
+        width:22.8vh;
+        height: 22.3vh;
         background-color: rgba(255, 255, 255, 0.321);
         box-shadow:4px 4px 7px rgba(0, 0, 0, 0.53);
         text-align: center;
@@ -290,14 +290,14 @@
        background-color:white;
        box-shadow:2px 2px 10px 2px rgba(63, 60, 60, 0.6);
       width: 80%;
-        height:17%;
+        height:20%;
         text-align: center;
         font-family:monospace;
         font-size: large; 
         position: relative;
         border-radius:27px;
         /* margin:40px 0px 0px 30px;  */
-        top:1%;
+        top:4%;
         left:5%;
     }
     #about .hir h3{
@@ -349,7 +349,7 @@
     }
     #services{
         position: relative;
-        height: 350vh;
+        height: 200vh;
         text-align: center;
         /* background-color: rgb(221, 221, 221); */
         /* background-color: thistle; */
@@ -369,7 +369,7 @@
     }
     #simp{
         width: 100%;
-        height:300px;
+        height:200px;
         margin:1%;
         /* margin-left:4%; */
         /* background-color: aliceblue; */
@@ -384,7 +384,7 @@
         background-size:cover;
         background-repeat: no-repeat;
         width:100%;
-        height:400px;
+        height:300px;
         overflow: hidden; 
     }
     #simp #simp1{
@@ -539,7 +539,7 @@
     .clients{
         background-color:rgba(20, 19, 20, 0.644);
         width: 90%;
-        height:25vh;
+        height:17vh;
         color: white;
         font-weight: 600;
         text-align: center;
@@ -549,14 +549,14 @@
         display: flex;
         justify-content: space-around;
         border-radius:7px;
-        position: relative;top:80%;
+        position: relative;top:94%;
     }
     .clients .client,.projects,.partners{
         position: relative;
-        top:40%;
+        top:30%;
     }
     #mySkills{
-        height:120vh;
+        height:90vh;
        margin-top:120%;text-align: center;
     }
     #mySkills span{
@@ -797,11 +797,11 @@
        font-size:x-large;
     }
     #experience .line_circles{
-        width:1%;
+        width:2%;
         background-color: rgb(74,73,73);
         height:90%;
         position:relative;
-        margin-left:10%;
+        margin-left:13%;
         display: flex;
         /* margin-top:-40px; */
         flex-direction: column;
@@ -810,7 +810,7 @@
         float: left;
     }
     .line_circles .circ1,.circ2,.circ3,.circ4{
-        position: relative;left:-22px;
+        position: relative;left:-30px;
         width:8vh;
         /* float: right; */
         height:8vh;
@@ -862,13 +862,13 @@
             border-color: transparent rgba(0, 0, 0, 0.689) transparent transparent;
     }
     #work{
-        height:120vh;
+        height:80vh;
         text-align: center;
        position: relative;top:80px;
     }
     .work1{
         /* background-color: black; */
-        position: relative;top:-73%;
+        position: relative;top:-103%;
     }
     #work span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -909,8 +909,8 @@
         margin-left:4%;
         margin-top:40px;
         width:40%;
-        height:40vh;
-/*     background-color: black; */
+        height:20vh;
+        /* background-color: black; */
         /* display: flex;gap:10px;
         flex-wrap: wrap;
         flex-direction:column;
@@ -925,8 +925,8 @@
         /* display: flex; */
         border:2px solid beige;
         /* background-color: #2c98f0; */
-        width:100px;
-        height:100px;
+        width:140px;
+        height:140px;
     
     }
     .show{
@@ -951,7 +951,7 @@
     }
     #blog .items{
         width:90%;
-        height:100vh;
+        height:87vh;
         /* background-color:green;*/
         margin-left:4.5%;
         margin-top:20px;
@@ -964,8 +964,8 @@
         background-color: aliceblue;
         /* float: right; */
         width:100%;
-        height:40vh;
-        box-shadow:2px 2px 10px rgba(0, 0, 0, 0.624)  ;
+        height:27vh;
+        box-shadow:2px 2px 10px rgba(0, 0, 0, 0.624);
         overflow: hidden;transition: 1s ease;
     }
     .items .item1:hover,.item2:hover,.item3:hover{
@@ -975,7 +975,7 @@
         transform: scale(1.2)rotate(-4deg);transition: 1s ease;
     }
     .items img{
-        width:24vh;height:30vh;
+        width:24vh;height:26vh;
         padding:10px;transition:1s ease;
         float: left;
     }.imgoverflow{
@@ -984,19 +984,23 @@
     .items h6{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;float: right;position: relative;top:-97%;width:172px;
+        left:10px;
     }
     .items h4{
         text-align:center;
         margin-top:15px;
-        position: relative;top:-79%;left:40%;width:40%;
-        font-size: large;
+        position: relative;top:-79%;left:58%;width:40%;
+        font-size:medium;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .items .cont {
         margin:120px 0px 0px 244px;width:40%;text-decoration: none; 
         position: relative;top:-200px;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }.items .cont .tee{display: none;}
-    
+    .cont a{
+        color: green;
+        position: relative;top:-100px;right:24%;
+    }
     .load{
         width:85%;
         height:5vh;
@@ -1010,17 +1014,17 @@
     #contact{
         /* background-color: rgba(0, 0, 0, 0.17); */
         color: white;text-align: center;
-        height: 220vh;position: relative;top:30vh;
+        height: 100vh;position: relative;top:30vh;
     }
     #contact span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         position: relative;
-        top:30px;
+        top:0px;
         /* left: 70px; */
     }
     #contact h3{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-top:45px;
+        margin-top:15px;
         /* margin-left:70px; */
         font-size:x-large;
     }
@@ -1103,8 +1107,11 @@
         font-weight: 700;position: relative;left:0%;
     }}
     
-    .mapouter{position:relative;text-align:right;height:40vh;width:40%;top:-40px;left:-200px;}
-    .gmap_canvas {overflow:hidden;background:none!important;height:490px;width:600px;}
+    .mapouter{position:relative;
+        text-align:right;height:40vh;width:40%;
+        top:-40px;left:-200px;}
+    .gmap_canvas {overflow:hidden;background:none!important;
+        height:490px;width:600px;}
     
     
     
