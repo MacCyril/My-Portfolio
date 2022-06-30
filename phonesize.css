@@ -240,8 +240,8 @@
         
     }
     .stuff2 .s1,.s2,.s3,.s4{
-        width:20vh;
-        height: 20vh;
+        width:22vh;
+        height: 22vh;
         background-color: rgba(255, 255, 255, 0.321);
         box-shadow:4px 4px 7px rgba(0, 0, 0, 0.53);
         text-align: center;
