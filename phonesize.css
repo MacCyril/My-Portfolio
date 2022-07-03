@@ -556,7 +556,7 @@
         top:30%;
     }
     #mySkills{
-        height:110vh;
+        height:130vh;
        margin-top:120%;text-align: center;
     }
     #mySkills span{
@@ -801,7 +801,7 @@
         background-color: rgb(74,73,73);
         height:90%;
         position:relative;
-        margin-left:13%;
+        margin-left:15%;
         display: flex;
         /* margin-top:-40px; */
         flex-direction: column;
@@ -1014,7 +1014,7 @@
     #contact{
         /* background-color: rgba(0, 0, 0, 0.17); */
         color: white;text-align: center;
-        height: 110vh;position: relative;top:30vh;
+        height: 180vh;position: relative;top:30vh;
     }
     #contact span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
