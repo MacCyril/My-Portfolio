@@ -147,6 +147,71 @@
         font-size:11px;
         text-align: center;
     }
+   #hireContent{
+        transition: 0.2s ease-in-out;
+        width:40%;
+        height:50vh;
+        background-color:rgba(255, 254, 254, 0.842);
+        border-radius:20px;
+        border:4px solid rgb(72, 72, 72);
+        border-left: none;
+        position:fixed;
+        top:30%;z-index:2;left:100%;
+        
+        
+    }
+    #hireContent form{
+        position: relative;
+        top:-20px;
+    }
+    #hireContent input{
+        position: relative;
+        left:10%;
+        margin-top: 20px;color:black;
+        width:80%;
+        height:30px;
+        display: flex;
+        background-color: transparent;
+        border: none;
+        border-bottom:2px solid black;
+        /* color: white; */
+    }
+    #hireContent input::placeholder{
+        color:black;
+    }
+    #hireContent select{
+        position: relative;
+        left:10%;
+        margin-top: 20px;
+        width:80%;
+        height:30px;
+        background-color: transparent;
+        border: none;
+        color: black;
+    }
+    #hireContent select:focus,input:focus,button:focus{
+        outline: none;
+    }#hireContent select option{
+        background-color: #052bb3dc;
+        color: white;font-weight: 500;font-family:monospace;
+    }
+    #hireContent button{
+        position: relative;
+        left:10%;
+        margin-top: 20px;
+        width:80%;
+        height:30px;
+        border-radius:20px;
+        background-color: rgb(116, 116, 253);
+        outline:invert;
+        border: none;
+        color: black;font-weight: 600;transition:0.4s ease-in-out;
+    }#hireContent button:hover{
+        background-color:white;color:blue;transition:0.2s ease-in-out;
+    }
+    .icon1{
+        font-size:30px;position: relative;left:150px;cursor: pointer;color:black;font-weight: bold;
+    }
     
     #display{
         /* margin-left:; */
