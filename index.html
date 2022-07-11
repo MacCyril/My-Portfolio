@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyril's Portfolio</title>
+    <!-- <link rel="stylesheet" href="responsive2.css"> -->
     <link rel="stylesheet" href="phonesize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Responsive-Tab3.css">
     
 </head>
 <body>
@@ -23,7 +25,7 @@
             </div>  
              
             <ul>
-              <div id="hire">Hire Me</div>
+              <div id="hire" onclick="hire()">Hire Me</div>
                 <li> <a href="#home"  onclick="nav2()" mdn1>HOME</a></li>
                 <li> <a href="#about"  onclick="nav2()" mdn1> ABOUT</a></li>
                 <li> <a href="#services" onclick="nav2()" mdn1> SERVICES</a></li>
@@ -37,12 +39,33 @@
            
             <div id="footer">Made with 	&#10084; by Cyril Osagie </div>
         </div>
+        
         <div id="display">
+        <div id="hireContent">
+            <div class="icon1"onclick="notHire()">&times;</div>
+            <form action="maccyril23@gmail.com" method="post">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="datetime" placeholder="Desired Date" required>
+                <select name="" id="">
+                    
+                        <option value="Default">Select desired Service</option>
+                        <option value="">WEB DESIGN</option>
+                        <option value="">GRAPHIC DESIGN</option>
+                        <option value="">TECHNICAL WRITING</option>
+                        <option value="">ONLINE TUTORING</option>
+                        
+                </select>
+                
+                <button type="submit">SEND MESSAGE</button>
+                </form>
+        </div>
              <!-- body part ======================================================================================================== -->
         <div id="home"class="reveal">
             <div class="text1">
                 <h1>HI!<br>I'm Cyril</h1>
-                    <a href ="analog clock documentation.txt" download="Cyril's CV">       
+                    <a href ="cv.pdf" download="Cyril's CV">       
                       <button>Download Cv</button>
                     </a>  
                     <!-- link for downloading CV and viewing protfolio=========================================================================== -->
@@ -58,7 +81,7 @@
             </div>
             <div class="text1">
                 <h1>I'm<br>a DEVELOPER</h1>
-                    <a href ="#">       
+                    <a href ="">       
                       <button>Let's Work Together</button>
                     </a> 
                     <img src="pics/cy1normal color.png">
@@ -69,11 +92,14 @@
             <div class="stuff1">
                 <span> ABOUT US </span>
                 <h2>Who am I ?</h2>
-                <br><br><br>
-               <div class="me"> Hi I'm Cyril Osagie On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a 
-                thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.<br>
-               <br> Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of
-                 Lorem Ipsum decided to leave for the far World of Grammar.</div>
+                <br>
+               <div class="me">Hi there i'm <a style="text-decoration:none; color:Blue;" href="https://www.linkedin.com/in/cyril-osagie-857a8a222">Cyril Osagie</a> currently a student looking to join the workforce to gain real world experience,
+                I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. 
+                I am a hard-working and driven individual who isn't afraid to face a challenge. I'm passionate about my work and I know how to get the job done. I would describe myself as an open and honest person who doesn't believe in misleading other people and tries to be fair in everything I do.
+                I have the ability to complete tasks on time in both team and individual settings, Dependable and reliable.Ready to learn and grow.
+                You can reach me via <a href="mailto:maccyril23@gmail.com" style="text-decoration: none;">maccyril23@gmail.com</a>
+            
+                </div>
             </div>
             <div class="stuff2" id="hhh">
                 <div class="s1 tabs"><span>GRAPHIC DESIGN</span></div>
@@ -82,7 +108,7 @@
                 <div class="s4 tabs"><span>WRITING</span></div>
             </div>
             <div class="hir free">
-                <h3>I am happy to let you know that i have 300+ projects done successfully</h3>
+                <h3>I am happy to let you know that i have 73+ projects done successfully</h3>
                 <div id = "hir3">Hire Me</div>
             </div>
         </div>
@@ -126,8 +152,14 @@
         <div id="mySkills"class="reveal">
             <span>My Specialty</span>
             <h3>MY SKILLS</h3>
-           <div class="txtt"> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't 
-            listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+           <div class="txtt">
+            <ul>
+                <li>Avid Learner</li>
+                <li>Critical thinking</li>
+                <li>Design and development</li>
+                <li>Strategic project planner</li>
+                <li>Front-end skills: HTML, CSS</li>
+            </ul> 
            </div>
             <div class="RANGE">
                 <div class="progressBar1">
@@ -182,10 +214,43 @@
                     <div class="circ4"></div>
             </div>
             <div class="tooltipguys">
-                <span class="tooltiptext" id="tool1">tooltip guys</span>
-                <span class="tooltiptext" id="tool2">tooltip guys</span>
-                <span class="tooltiptext" id="tool3">tooltipguys</span>
-                <span class="tooltiptext" id="tool4">tooltipguys</span>
+                <span class="tooltiptext" id="tool1">
+                    August 2021 - present
+                    <span class="tool">Website Developer</span>
+                    <span class="">-- LearnHub.Africa</span>
+                    <ul class="list1">
+                        <li>Provided guidance and leadership to less experienced developers</li>
+                        <li>Created clean, well documented custom code and updates</li>
+                        <li>Developed custom websites to meet individual client needs</li>
+                    </ul>
+                
+                </span>
+                <span class="tooltiptext" id="tool2">
+                    August 2020 - present
+                    <span class="tool">C-reign Tech Solutions</span>
+                    <span class="">-- LearnHub.Africa</span>
+                    <ul class="list1">
+                        <li>Specialized in design and printing</li>
+                        <li>Provided solutions to problems concerning tech in general</li>
+                        <li>Provided online trainings to people via whatsapp</li>
+                    </ul>
+                
+                </span>
+                <span class="tooltiptext" id="tool3">
+                    February 2023 - present
+                    <span class="tool">Bsc Computer Science and Mathematics</span>
+                    <span class="">-- Rivers State University</span>
+                    <ul class="list1">
+                        <li>Best In Informatics 1st and 2nd semester</li>
+                        <li>Developed a community of students specialized in software</li>
+                        <li>Completed 23 school projects</li>
+                    </ul>
+                </span>   
+                <span class="tooltiptext" id="tool4">
+                    <!-- August 2021 - present
+                    <span class="tool2">Website Developer</span>
+                    <span class="">-- LearnHub.Africa</span> -->
+                </span>
             </div>
             
         </div>
@@ -268,12 +333,12 @@
                    <div class="imgoverflow"><img src="pics/web...jpg" alt="web"></div>
                    <!-- <span class="word"> -->
                        <h6>April 14 2022 || WEB DESIGN || 2mins read</h6>
-                       <h4>How to create a clock with JAVASCRIPT</h4>
+                       <h4>Overview of the web{HTML, CSS, JAVASCRIPT}</h4>
                        <div class="cont">
-                           <div class="tee">Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Dignissimos omnis dolorem nihil veniam ipsa esse!
-                           </div>  <br><br>
-                            <a href="#"id="linktofile"style="position: relative;top:-20px;"> link to input link here</a>
+                           <div class="tee">
+                            Know how the web works, using HTML, CSS, JAVASCRIPT in creating websites
+                               </div>  <br><br>
+                            <a href="https://medium.com/@CyrilOsagie/overview-of-the-web-html-css-javascript-e8e84aca2fda"id="linktofile" target="_blank">Click Here to read</a>
 
                        </div>
                    </span>
@@ -288,7 +353,7 @@
                         <div class="tee">Lorem ipsum dolor, sit amet consectetur adipisicing
                          elit. Dignissimos omnis dolorem nihil veniam ipsa esse!
                         </div>      <br>
-                        <a href="#"id="linktofile" style="position: relative;top:0px;"> link to input link here</a>
+                        <a href="#"id="linktofile"> link to input link here</a>
 
                     </div>
                
@@ -302,7 +367,7 @@
                         <div class="tee">Lorem ipsum dolor, sit amet consectetur adipisicing
                          elit. Dignissimos omnis dolorem nihil veniam ipsa esse!
                         </div>  <br><br>
-                         <a href="#"id="linktofile"style="position: relative;top:-20px;"> link to input link here</a>
+                         <a href="#"id="linktofile"> link to input link here</a>
 
                     </div>
                 
@@ -336,64 +401,68 @@
                 <button type="submit">SEND MESSAGE</button>
                 </form>
             </div>
-            <hr style="width:80%;height: 1px;position:relative;top:-73px;left:7%;">
-            <div class="socialLinks"style="height:auto;width:100%;position: relative;top:-10%;">
-                <div class="social Handles">
-                    <ul>
-                        
-                        <li><div class="hoverLine"   ></div> 
-                             <a href="#">   <img src="pics/facebook.png" alt="" > Facebook </a>
-                        </li>
-                        
-                        <li><div class="hoverLine"   ></div>
-                             <a href="#">  <img src="pics/instagram.png" alt="" >  Instagram </a>
-                        </li>
-                  
-                        <li>       <div class="hoverLine"   ></div>
-                             <a href="#">   <img src="pics/twitter.png" alt="" >  Twitter</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="other Handles">
-                    <ul>
-                        
-                        <li> <div class="hoverLine"   ></div>
-                            <a href="#">    <img src="pics/linkedin.png" alt="" > LinkedIn </a>
-                        </li>
-                        
-                        <li><div class="hoverLine"   ></div>
-                              <a href="#">  <img src="pics/medium.png" alt="" >  Medium </a>
-                        </li>
-                        <!-- <li> <img src="" alt="Hashnode">HashNode</li> -->
-                        
-                        <li><div class="hoverLine"   ></div>
-                              <a href="#">  <img src="pics/github.png" alt="" > GitHub </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="phone Handles" style="margin-top:20px;">
-                    <ul>
-                       
-                        <li> <div class="hoverLine"></div> 
-                            <a href="tel:+2347026916713"> <img src="pics/CallIcon.png" alt=""> (+234)7026916713</a>
-                        </li>
-                        
-                        <li><div class="hoverLine"></div> 
-                            <a href="wa.me/07026916713"> <img src="pics/whatsapp-black.png" alt="" > (+234)7026916713</a>
-                        </li>
-                    </ul>
-                </div>
-            
-            
-            </div>
-            <!-- footer -->
-            
-           
 
+            
+            <hr style="width:80%;height: 1px;position:relative;top:-73px;left:7%;">
+           
+<!-- <h4 style="text-align:center;margin-top:10px;">coigidgisuuuuuuuigxpibnkshtt414wt7treuuuuuuuuuuuuuuu</h4> -->
+
+    </div>
+    <div class="socialLinks"style="height:auto;width:100%;position: relative;top:-10%;">
+        <div class="social Handles">
+            <ul>
                 
+                <li><div class="hoverLine"   ></div> 
+                     <a href="https://web.facebook.com/Cyril.Osagie.01" target="_blank">   <img src="pics/facebook.png" alt="" > Facebook </a>
+                </li>
+                
+                <li><div class="hoverLine"   ></div>
+                     <a href="#" target="_blank">  <img src="pics/instagram.png" alt="" >  Instagram </a>
+                </li>
+          
+                <li>       <div class="hoverLine"   ></div>
+                     <a href="https://twitter.com/@CyrilOsagie20" target="_blank">   <img src="pics/twitter.png" alt="" >  Twitter</a>
+                </li>
+            </ul>
+        </div>
+        <div class="other Handles">
+            <ul>
+                
+                <li> <div class="hoverLine"   ></div>
+                    <a href="https://www.linkedin.com/in/cyril-osagie-857a8a222" target="_blank">    <img src="pics/linkedin.png" alt="" > LinkedIn </a>
+                </li>
+                
+                <li><div class="hoverLine"   ></div>
+                    <a href="https://medium.com/@CyrilOsagie" target="_blank">  <img src="pics/medium.png" alt="" >  Medium </a>
+                </li>
+                <!-- <li> <img src="" alt="Hashnode">HashNode</li> -->
+                
+                <li><div class="hoverLine"   ></div>
+                      <a href="https://github.com/MacCyril" target="_blank">  <img src="pics/github.png" alt="" > GitHub </a>
+                </li>
+            </ul>
 
         </div>
-<!-- <h4 style="text-align:center;margin-top:10px;">coigidgisuuuuuuuigxpibnkshtt414wt7treuuuuuuuuuuuuuuu</h4> -->
+        <div class="phone Handles" style="margin-top:20px;">
+            <ul>
+               
+                <li> <div class="hoverLine"></div> 
+                    <a href="tel:+2347026916713"> <img src="pics/CallIcon.png" alt=""> (+234)7026916713</a>
+                </li>
+                
+                <li><div class="hoverLine"></div> 
+                    <a href="https://wa.me/07026916713" target="_blank"> <img src="pics/whatsapp-black.png" alt="" > (+234)7026916713</a>
+                </li>
+            </ul>
+        </div>
+    
+    
+    </div>
+    <!-- footer -->
+    
+   
+
+        
 
 </div>
     </div>
