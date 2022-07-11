@@ -12,7 +12,14 @@
 // slides[slideIndex-1].style.display = "block";
 // dots[slideIndex-1].className += " active";
 // }
-
+function hire(){
+    document.getElementById("hireContent").style.left="18%";
+    
+}
+function notHire(){
+    document.getElementById("hireContent").style.left="-100%";
+    
+}
 
 
 var slideIndex = 0;
