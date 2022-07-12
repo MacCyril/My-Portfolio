@@ -1148,7 +1148,7 @@
         height:70vh;
         float: right;
         margin-right:2%;left:-60px;
-        position: relative;top:-8%;
+        position: relative;top:-12%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -1187,10 +1187,10 @@
     }}
     
     .mapouter{position:relative;
-        text-align:right;height:40vh;width:40%;
+        text-align:right;height:40vh;width:70%;
         top:-40px;left:-200px;}
     .gmap_canvas {overflow:hidden;background:none!important;
-        height:490px;width:600px;}
+        height:490px;width:700px;}
     
     
     
@@ -1200,7 +1200,7 @@
         color: darkblue;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: smaller;
-        margin-top:8%;margin-left:10%;
+        margin-top:15%;margin-left:6%;
         
     }.socialLinks ul li img{
         width:20px;height:20px;position:relative;top:5px;
