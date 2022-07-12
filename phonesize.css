@@ -617,7 +617,7 @@
         display: flex;
         justify-content: space-around;
         border-radius:7px;
-        position: relative;top:44%;
+        position: relative;top:84%;
     }
     .clients .client,.projects,.partners{
         position: relative;
@@ -650,7 +650,7 @@
         position:relative;
         /* top:2px;text-align: center; */
         margin-top:-20px;
-         left:20%;
+         left:10%;
         /* height:100px; */
         /* background-color: aliceblue; */
         display: flex;
