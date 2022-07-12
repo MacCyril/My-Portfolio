@@ -1196,7 +1196,7 @@
     
     .socialLinks{
         position: relative;
-        display: flex;gap:30%;flex-direction: row;
+        display: flex;gap:37%;flex-direction: row;
         color: darkblue;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: smaller;
