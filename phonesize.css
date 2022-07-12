@@ -1093,7 +1093,7 @@
     #contact{
         /* background-color: rgba(0, 0, 0, 0.17); */
         color: white;text-align: center;
-        height: 100vh;position: relative;top:30vh;
+        height: 100vh;position: relative;top:10vh;
     }
     #contact span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1223,7 +1223,7 @@
     }
     .socialLinks .phone{
         position: relative;
-        left:-300px;top:30px;
+        left:-240px;top:30px;
     }
     hr{
        display: none;
