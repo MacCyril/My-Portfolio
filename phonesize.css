@@ -849,7 +849,7 @@
     #experience{
         height:100vh;
         /* padding-bottom:70px; */
-        margin-top:0%;text-align: center;
+        margin-top:-10%;text-align: center;
         /* background-color: greenyellow; */
     }
     #experience span{
@@ -1093,7 +1093,7 @@
     #contact{
         /* background-color: rgba(0, 0, 0, 0.17); */
         color: white;text-align: center;
-        height: 100vh;position: relative;top:10vh;
+        height: 100vh;position: relative;top:2vh;
     }
     #contact span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1223,7 +1223,7 @@
     }
     .socialLinks .phone{
         position: relative;
-        left:-330px;top:30px;
+        left:-380px;top:30px;
     }
     hr{
        display: none;
