@@ -920,6 +920,7 @@
         color: white;
         padding:10px;
         margin-top:-5px;text-align: left;
+       margin-left:30px;
     }
     .tooltipguys .tooltiptext::after{
             content: " ";
@@ -931,7 +932,7 @@
             border-color: transparent rgba(0, 0, 0, 0.689) transparent transparent;
     }
    #experience .tooltiptext .tool{
-        margin-left:-100px;
+        margin-left:-170px;
         font-weight: 800;color: white;
        margin-top: -40px; 
          text-align: left;
