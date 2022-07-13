@@ -870,7 +870,7 @@
         background-color: rgb(74,73,73);
         height:90%;
         position:relative;
-        margin-left:15%;
+        margin-left:14.4%;
         display: flex;
         /* margin-top:-40px; */
         flex-direction: column;
@@ -908,7 +908,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;top:-92%;left:60px;
-        margin-left:14%;float: right;position: relative;
+        margin-left:19%;float: right;position: relative;
             /* margin-top:10px; */
     }
     .tooltipguys .tooltiptext{
@@ -931,9 +931,9 @@
             border-color: transparent rgba(0, 0, 0, 0.689) transparent transparent;
     }
    #experience .tooltiptext .tool{
-        margin-left:-100px;
+        margin-left:-70px;
         font-weight: 800;color: white;
-       margin-top: -20px; 
+       margin-top: -40px; 
          text-align: left;
     }
     #experience .list1{
@@ -942,6 +942,7 @@
         text-align: left;
        font-size:small;
     }#experience ul li{color: white;font-size:small;}
+   #experience span{color:white;}
     #work{
         height:90vh;
         text-align: center;
@@ -1095,7 +1096,7 @@
     #contact{
         /* background-color: rgba(0, 0, 0, 0.17); */
         color: white;text-align: center;
-        height: 100vh;position: relative;top:10vh;
+        height: 90vh;position: relative;top:10vh;
     }
     #contact span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1149,7 +1150,7 @@
         width:84%;
         height:70vh;
         float: right;
-        margin-right:0%;left:-60px;
+        margin-right:0%;left:-20px;
         position: relative;top:-34%;
         display: flex;
         flex-direction: column;
@@ -1202,7 +1203,7 @@
         color: darkblue;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: smaller;
-        margin-top:-75%;margin-left:6%;
+        margin-top:-105%;margin-left:6%;
         
     }.socialLinks ul li img{
         width:20px;height:20px;position:relative;top:5px;
