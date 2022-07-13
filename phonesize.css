@@ -1148,7 +1148,7 @@
         height:70vh;
         float: right;
         margin-right:2%;left:-60px;
-        position: relative;top:-22%;
+        position: relative;top:-32%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -1200,7 +1200,7 @@
         color: darkblue;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: smaller;
-        margin-top:15%;margin-left:6%;
+        margin-top:5%;margin-left:6%;
         
     }.socialLinks ul li img{
         width:20px;height:20px;position:relative;top:5px;
@@ -1223,7 +1223,7 @@
     }
     .socialLinks .phone{
         position: relative;
-        left:-380px;top:30px;
+        left:-420px;top:30px;
     }
     hr{
        display: none;
