@@ -152,7 +152,7 @@
     }
    #hireContent{
         transition: 0.2s ease-in-out;
-        width:70%;
+        width:50%;
         height:50vh;
         background-color:rgba(255, 254, 254, 0.842);
         border-radius:20px;
