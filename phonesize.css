@@ -1093,7 +1093,7 @@
     #contact{
         /* background-color: rgba(0, 0, 0, 0.17); */
         color: white;text-align: center;
-        height: 100vh;position: relative;top:2vh;
+        height: 100vh;position: relative;top:10vh;
     }
     #contact span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1148,7 +1148,7 @@
         height:70vh;
         float: right;
         margin-right:2%;left:-60px;
-        position: relative;top:-12%;
+        position: relative;top:-22%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
