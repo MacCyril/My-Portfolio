@@ -870,7 +870,7 @@
         background-color: rgb(74,73,73);
         height:90%;
         position:relative;
-        margin-left:14.4%;
+        margin-left:14%;
         display: flex;
         /* margin-top:-40px; */
         flex-direction: column;
@@ -908,7 +908,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;top:-92%;left:60px;
-        margin-left:19%;float: right;position: relative;
+        margin-left:21%;float: right;position: relative;
             /* margin-top:10px; */
     }
     .tooltipguys .tooltiptext{
@@ -919,7 +919,7 @@
          font-size:small;
         color: white;
         padding:10px;
-        margin-top:-10px;text-align: left;
+        margin-top:-5px;text-align: left;
     }
     .tooltipguys .tooltiptext::after{
             content: " ";
@@ -931,7 +931,7 @@
             border-color: transparent rgba(0, 0, 0, 0.689) transparent transparent;
     }
    #experience .tooltiptext .tool{
-        margin-left:-70px;
+        margin-left:-100px;
         font-weight: 800;color: white;
        margin-top: -40px; 
          text-align: left;
